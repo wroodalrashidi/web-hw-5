@@ -1,20 +1,23 @@
-html {
-    font-family: "Avenir Next", Helevetica, sans-serif;
-    text-align: center;
-  }
+
   
   body {
-    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(5, 5, 5, 0.904);
   }
   
   input {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 500px;
-    height: 60px;
-    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 480px;
+    height: 50px;
+    font-size: 25px;
     border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow:4px 4px 10px rgba(240, 236, 236, 0.87);
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
   }
   
   input:focus {
@@ -23,9 +26,10 @@ html {
   
   li {
     text-align: left;
-    font-size: 40px;
+    font-size: 25px;
     list-style: none;
     margin: 0;
+    color: whitesmoke;
   }
   
   li:hover {
@@ -37,15 +41,18 @@ html {
     flex-direction: column;
     justify-content: space-around; */
     text-align: center;
-    background-color: rgba(37, 154, 212, 0.897);
-    box-shadow:4px 4px 10px rgba(206, 206, 206, 0.74);
-    padding: 10px;
+    box-shadow:4px 4px 15px rgba(47, 34, 224, 0.425);
+    padding: 15px;
     height: 500px;
     width: 700px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 100px;
     border-radius: 15px;
+    background-color: #3388c1;
+    background-image: linear-gradient(135deg, #3a81b1 32%, #5e64cf 100%);
+
+
 
   }

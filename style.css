@@ -1,0 +1,51 @@
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0 auto;
+  }
+  
+  input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+  }
+  
+  li:hover {
+    text-decoration: line-through;
+  }
+
+  .menu {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    text-align: center;
+    background-color: rgba(37, 154, 212, 0.897);
+    box-shadow:4px 4px 10px rgba(206, 206, 206, 0.74);
+    padding: 10px;
+    height: 500px;
+    width: 700px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border-radius: 15px;
+
+  }

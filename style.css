@@ -2,7 +2,7 @@
   
   body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #232553b6;
+    background-color: #000000ef;
   }
   
   input {
@@ -49,8 +49,17 @@
     border-radius: 15px;
   }
 
-  h2{
-font-size: 25px;
+.add{
+  height: 30px;
+  width: 30px;
+
+}
+
+
+ 
+
+  h3{
+font-size: 20px;
 text-align: center;
 color: white;
 font-family: 'Courier New', Courier, monospace;
@@ -80,3 +89,4 @@ font-family: 'Courier New', Courier, monospace;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
